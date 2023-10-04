@@ -31,7 +31,7 @@ app.post('/webhook', async (req, res) => {
   }
 });
 
-const port = process.env.PORT || 3425;
+const port = process.env.PORT || 3001;
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
